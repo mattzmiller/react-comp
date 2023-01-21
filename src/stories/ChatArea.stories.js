@@ -1,11 +1,10 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
-import "reflect-metadata";
 
-import { Requirements } from "../components/Requirements";
+import { ChatArea } from "../components/ChatArea";
 
 const stories = storiesOf("App Test", module);
 
 stories.add("App", () => {
-  return <Requirements />;
+  return <ChatArea />;
 });
