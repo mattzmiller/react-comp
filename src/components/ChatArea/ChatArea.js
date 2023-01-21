@@ -1,6 +1,4 @@
 import { useState } from "react";
-import ChatIcon from "./chat-icon.svg";
-import ChatExitIcon from "./chat-exit-icon.png";
 
 export const ChatArea = () => {
   const [chatInput, setChatInput] = useState("");
@@ -28,7 +26,7 @@ export const ChatArea = () => {
             onClick={chatIconClickHandler}
             style={chatSpaceImg}
             className="animate-[bounce_2.7s_ease-in-out_infinite]"
-            src={ChatIcon}
+            src="https://i.ibb.co/n1Wvk1k/chat-icon.png"
             alt="chat-icon"
           />
         </div>
@@ -40,7 +38,7 @@ export const ChatArea = () => {
             <img
               onClick={closeChatSpaceHandler}
               style={chatSpaceExitIcon}
-              src={ChatExitIcon}
+              src="https://i.ibb.co/3437jdv/chat-exit-icon.pnghttps://ibb.co/S5jPMyc"
               alt=""
             />
           </div>
